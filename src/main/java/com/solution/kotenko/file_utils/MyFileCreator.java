@@ -29,6 +29,10 @@ public class MyFileCreator implements References {
                 pathToDir = PATH_OUTPUT_UNIQUE_DIR;
                 suffix = SUFFIX_UNIQUE;
             }
+            case OUTPUT -> {
+                pathToDir = PATH_OUTPUT_DIR;
+                suffix = SUFFIX_DEFAULT;
+            }
             default -> {
                 pathToDir = PATH_DEFAULT_DIR;
                 suffix = SUFFIX_DEFAULT;

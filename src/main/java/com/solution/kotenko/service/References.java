@@ -14,4 +14,6 @@ public interface References {
 
     String PATH_DEFAULT_DIR = "src/main/resources/";
     String SUFFIX_DEFAULT = "";
+
+    String PATH_OUTPUT_DIR = "src/main/resources/output/";
 }
